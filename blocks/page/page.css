@@ -1,0 +1,36 @@
+@font-face { 
+    font-family: "Inter";
+    src: url('../../fonts/Inter-ExtraBold-slnt=0.ttf') format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "Inter";
+    src: url('../../fonts/Inter-Medium-slnt=0.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "Inter";
+    src: url('../../fonts/Inter-Regular-slnt=0.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page {
+    margin: 0;
+    background-color: #2A2C2F;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 48px;
+}
+
+@media screen and (max-width: 768px){
+    .page{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

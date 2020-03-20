@@ -1,0 +1,9 @@
+@media screen and (max-width:767px) {
+    .place__cell:first-child {
+        margin-bottom: 32px;
+    }
+
+    .place__cell:last-child{
+        margin-top: 24px;
+    }
+}

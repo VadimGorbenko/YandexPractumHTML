@@ -1,0 +1,29 @@
+.nav__list {
+    display: flex;
+    font-size: 24px;
+    line-height: 41px;
+}
+
+.nav__list li:not(:first-child) {
+    margin-left: 18px;
+}
+
+@media screen and (max-width: 1023px){
+    .nav__list{
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .nav__list {
+        font-size: 24px;
+        line-height: 41px;
+        flex-direction: column;
+    }
+
+    .nav__list li:not(:first-child) {
+        margin-left: 0;
+        margin-top: 32px;
+    }
+}

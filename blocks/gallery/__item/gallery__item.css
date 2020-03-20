@@ -1,0 +1,8 @@
+.gallery__item {
+    display: flex;
+}
+
+.gallery__item img {
+    max-width: 100%;
+}
+

@@ -1,0 +1,14 @@
+.place__url {
+    position: relative;
+}
+
+.place__url:before {
+    content: 'url';
+    text-transform: uppercase;
+    position: absolute;
+    top: calc(-100% - 16px);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #aaa;
+}
