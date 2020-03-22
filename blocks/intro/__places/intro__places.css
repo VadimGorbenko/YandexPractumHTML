@@ -1,8 +1,0 @@
-.intro__places {
-    margin-top: 92px;
-}
-@media screen and (max-width:767px) {
-    .intro__places{
-        margin-top: 64px;
-    }
-}

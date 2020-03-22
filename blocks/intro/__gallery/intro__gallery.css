@@ -1,8 +1,0 @@
-.intro__gallery {
-    margin-top: 102px;
-}
-@media screen and (max-width:767px) {
-    .intro__gallery{
-        margin-top: 64px;
-    }
-}
